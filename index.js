@@ -33,7 +33,7 @@ app.use(bodyParser.urlencoded({
     extended: true
 }));
 app.use(cors([
-    'https://sktapp.onrender.com/'
+    'https://sktapp.onrender.com/', 'https://skrt-api-backend.onrender.com'
 ]))
 app.use("/assets", express.static(path.join(__dirname, 'public/assets')));
 
