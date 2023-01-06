@@ -32,7 +32,7 @@ app.use(bodyParser.urlencoded({
     limit: "30mb",
     extended: true
 }));
-app.use(cors({ origin: 'https://skrtapp.onrender.com'}))
+app.use(cors({ origin: 'https://sktapp.onrender.com'}))
 app.use("/assets", express.static(path.join(__dirname, 'public/assets')));
 
 
